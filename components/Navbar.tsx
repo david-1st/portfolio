@@ -1,12 +1,7 @@
 import Image from "next/image";
-import Cube from "./Cube";
 
 const Navbar = () => {
-  return (
-    <nav className="flex bg-gradient-to-r from-neutral-400 via-purple-200 to-red-200 w-full h-24 pl-3">
-      <Cube />
-    </nav>
-  );
+  return <nav className="flex w-full h-20 pl-3 border-b-2  border-black"></nav>;
 };
 
 export default Navbar;

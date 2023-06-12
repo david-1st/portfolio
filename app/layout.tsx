@@ -13,7 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ru">
-      <body>
+      <body className="flex flex-col justify-between min-h-screen w-full">
         <Navbar />
         {children}
         <Footer />
